@@ -1,16 +1,23 @@
 # scoreflash
 
-A new Flutter project.
+A mobile app made with Flutter, Firebase Authentication, Cloud Firestore and GetX.
 
-## Getting Started
+Features:
+ - real-time chat rooms for each game
+ - favorites games saved on local storage (Shared Preferences)
+ - view every game from the entire season from Bundesliga
+ - organised based on the rounds of the season
+ - confetti animation when a goal is scored
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div>
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/1.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/2.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/3.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/4.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/5.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/6.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/7.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/8.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/9.png" height="400px">
+  <img src="https://github.com/notna4/scoreflash/blob/main/screenshots/10.png" height="400px">
+</div>
