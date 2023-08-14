@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1024929076207",
+    "firebase_url": "https://calendar-phone-auth.firebaseio.com",
+    "project_id": "calendar-phone-auth",
+    "storage_bucket": "calendar-phone-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024929076207:android:dbc1bcae5873cba9efdc1a",
+        "android_client_info": {
+          "package_name": "com.example.scoreflash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024929076207-v56k6rtsnnapiejc3im5khs88mhrd5su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5FEP6mkIghDxQ3JoQBjYt-BjEL83Alu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024929076207-v56k6rtsnnapiejc3im5khs88mhrd5su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
