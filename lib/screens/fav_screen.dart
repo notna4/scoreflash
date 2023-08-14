@@ -36,6 +36,17 @@ class _FavScreenState extends State<FavScreen> {
                 onDismissed: (direction) {
                   // Remove the item from the data source.
                   setState(() {
+
+                    Future.delayed(const Duration(seconds: 3), () {
+                      setState(() {
+                        controller.addToRemovedMatch(
+                          controller.removedMatch[key]['homeTeam'],
+                          controller.removedMatch[key]['awayTeam'],
+                          controller.removedMatch[key]['dateTime'],
+                        );
+                      });
+                    });
+
                     controller.addToRemovedMatch(
                       controller.favMatches[key]['homeTeam'],
                       controller.favMatches[key]['awayTeam'],
@@ -43,6 +54,7 @@ class _FavScreenState extends State<FavScreen> {
                     );
                     controller.favMatches.remove(key);
                   });
+
 
                   // Then show a snackbar.
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -97,20 +109,6 @@ class _FavScreenState extends State<FavScreen> {
               );
             },
           ),
-          // () => Column(
-          //   mainAxisAlignment: MainAxisAlignment.start,
-          //   crossAxisAlignment: CrossAxisAlignment.start,
-          //   children: [
-          //     for (var match in controller.favMatches.values)
-          //       MatchItem(
-          //         homeTeam: match['homeTeam'],
-          //         awayTeam: match['awayTeam'],
-          //         dateTime: match['dateTime'],
-          //         homeLogo: "",
-          //         awayLogo: "",
-          //       )
-          //   ],
-          // ),
         ),
       ),
     );
